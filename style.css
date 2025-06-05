@@ -1,0 +1,43 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px 15px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    td ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    img.icon {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #eef;
+    }
